@@ -1,0 +1,42 @@
+.custom-hero {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 10% 20%, rgb(0, 205, 172) 0%, rgb(255, 107, 107) 90%);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.hero-shape {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.hero-images img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Reduce top menu size */
+.ananke-nav {
+    padding: 0.5rem 1rem !important;
+}
+.ananke-nav a {
+    font-size: 0.9rem !important;
+}

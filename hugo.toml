@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'SVision3'
+theme = 'ananke'
+#ananke  docuapi  nightfall
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.main]]
+  name = "Widgets"
+  url = "/widgets/"
+  weight = 999
+
+[permalinks]
+  widgets = "/widgets/:slug/"
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  style = "monokai"
+

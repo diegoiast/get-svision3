@@ -1,0 +1,16 @@
+{{ define "header" }}
+<header>
+  <div class="pb3-m  bg-black">
+    {{ partials.Include "site-navigation.html" . }}
+  </div>
+</header>
+{{ end }}
+
+{{ define "main" }}
+<link rel="stylesheet" href="/css/custom.css">
+<main class="custom-hero">
+    <div class="content">
+        {{ .Content }}
+    </div>
+</main>
+{{ end }}

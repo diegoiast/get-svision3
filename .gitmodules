@@ -1,0 +1,9 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/docuapi"]
+	path = themes/docuapi
+	url = https://github.com/bep/docuapi
+[submodule "themes/nightfall"]
+	path = themes/nightfall
+	url = https://github.com/lordmathis/hugo-theme-nightfall.git
