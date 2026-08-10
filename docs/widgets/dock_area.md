@@ -8,23 +8,38 @@ panels (west, south, east), automatically building a nested
 All docks must be added before the `DockArea` is first given a non-zero
 rect — i.e. before the window is shown. Inherits `Splitter`.
 
-=== "macOS"
-    ![DockArea screenshot](../assets/screenshots/macos/dock_area.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![DockArea screenshot](../assets/screenshots/material/dock_area.png)
+![DockArea screenshot](../assets/screenshots/macos/dock_area.png)
 
-=== "Windows 11"
-    ![DockArea screenshot](../assets/screenshots/win11/dock_area.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![DockArea screenshot](../assets/screenshots/win95/dock_area.png)
+![DockArea screenshot](../assets/screenshots/material/dock_area.png)
 
-=== "Plasma 6"
-    ![DockArea screenshot](../assets/screenshots/plasma6/dock_area.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![DockArea screenshot](../assets/screenshots/gnome/dock_area.png)
+![DockArea screenshot](../assets/screenshots/win11/dock_area.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![DockArea screenshot](../assets/screenshots/win95/dock_area.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![DockArea screenshot](../assets/screenshots/plasma6/dock_area.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![DockArea screenshot](../assets/screenshots/gnome/dock_area.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

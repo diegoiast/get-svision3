@@ -8,44 +8,40 @@ minimal window with a label and a button.
 - A C++20 compiler (GCC, Clang, or MSVC)
 - [CMake](https://cmake.org/) and [Conan 2](https://conan.io/)
 - On Linux, `harfbuzz` and `freetype` installed via your system package
-  manager (required on every distro, regardless of windowing backend)
+  manager (required on every distro, regardless of windowing backend).
 
-## 1. Install dependencies with Conan
+## 1. Add svision3 as a connan requirent
 
-From the repository root:
+If you use `conan.py`:
+```python
+from conan import ConanFile
+from conan.tools.cmake import cmake_layout
 
-```bash
-conan install . --build=missing
+class MyApp(ConanFile):
+    settings = "os", "compiler", "build_type", "arch"
+    generators = "CMakeDeps", "CMakeToolchain"
+
+    def requirements(self):
+        self.requires("svision3/0.0.1")
+        self.requires("spdlog/1.14.1")
+
+    def build_requirements(self):
+        self.test_requires("catch2/[>=3.0 <4.0]")
 ```
 
-This resolves `cairo`, `spdlog`, and `Catch2`.
+If you use `conan.txt`
+```ini
+[requires]
+svision3/0.0.1
+spdlog/1.14.1
+catch2/[>=3.0 <4.0]
 
-## 2. Configure and build
-
-=== "Ninja / Make (Linux, macOS)"
-
-    ```bash
-    cmake --preset conan-release
-    cmake --build build/Release
-    ```
-
-=== "Visual Studio (Windows)"
-
-    ```bash
-    cmake --preset conan-default
-    cmake --build --preset conan-release
-    ```
-
-## 3. Run the demo
-
-```bash
-./build/Release/demo
+[generators]
+CMakeDeps
+CMakeToolchain
 ```
 
-You should see the demo application window open, showing off the toolkit's
-widgets and themes.
-
-## 4. Write your first window
+## 2. Write your first window
 
 Create a `main.cpp`:
 
@@ -58,17 +54,17 @@ Create a `main.cpp`:
 
 int main() {
     toolkit::Application app;
-    auto *window = app.create_window("Hello", {400, 200});
+    auto window = app.create_window("Hello", {400, 200});
 
-    auto root = std::make_unique<toolkit::VBoxLayout>();
-    root->set_margins({20, 20, 20, 20});
-    root->set_spacing(12);
-
+    // note the chainability, you get a reference to the widget
+    auto root = std::make_unique<toolkit::VBoxLayout>()
+        .set_margins({20, 20, 20, 20})
+        .set_spacing(12);
     root->add_widget(std::make_unique<toolkit::Label>("Hello, world!"));
-
-    auto btn = std::make_unique<toolkit::Button>("&Quit");
-    btn->on_click = [window] { window->close(); };
-    root->add_widget(std::move(btn));
+    root->add_widget(std::make_unique<toolkit::Button>("&Quit"))->on_click = [window] {
+        // simple lambda as callback,
+        window->close();
+    };
 
     window->set_root(std::move(root));
     window->show();
@@ -87,7 +83,7 @@ A few things worth noting:
 - Layouts (`VBoxLayout` here) stack widgets vertically; use `HBoxLayout`
   for horizontal arrangements, and nest them to build more complex UIs.
 
-## 5. Pick a rendering backend (optional)
+## 3. Pick a rendering backend (optional)
 
 The default backend is native per platform (CoreGraphics on macOS, GDI+ on
 Windows, Cairo on Linux). Override it at runtime:
@@ -95,6 +91,22 @@ Windows, Cairo on Linux). Override it at runtime:
 ```bash
 SVISION_PAINT=opengl ./build/Release/demo
 ```
+
+## Pre make template
+
+While this will work, and get you started many things like linting, `gitignore`,
+indentation, building binaries on push etc - still need to be done.
+
+Instead we got a ready made repository with all the setup already done. You should
+clone it, (ideally - recommit the first commit with your own name, `git commit --amend --reset-author`)
+and then push it to your own repository.
+
+Visit - https://github.com/diegoiast/svision3-starter
+
+```
+git clone https://github.com/diegoiast/svision3-starter
+```
+
 
 ## Next steps
 

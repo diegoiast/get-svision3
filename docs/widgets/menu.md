@@ -7,23 +7,38 @@ A dropdown menu of actions, separators, and submenus, built from
 [`Button`](button.md) via `set_menu()`) and as the per-menu content of a
 [`MenuBar`](menubar.md).
 
-=== "macOS"
-    ![Menu screenshot](../assets/screenshots/macos/menu.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Menu screenshot](../assets/screenshots/material/menu.png)
+![Menu screenshot](../assets/screenshots/macos/menu.png)
 
-=== "Windows 11"
-    ![Menu screenshot](../assets/screenshots/win11/menu.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Menu screenshot](../assets/screenshots/win95/menu.png)
+![Menu screenshot](../assets/screenshots/material/menu.png)
 
-=== "Plasma 6"
-    ![Menu screenshot](../assets/screenshots/plasma6/menu.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Menu screenshot](../assets/screenshots/gnome/menu.png)
+![Menu screenshot](../assets/screenshots/win11/menu.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Menu screenshot](../assets/screenshots/win95/menu.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Menu screenshot](../assets/screenshots/plasma6/menu.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Menu screenshot](../assets/screenshots/gnome/menu.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

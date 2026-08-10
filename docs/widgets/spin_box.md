@@ -5,23 +5,38 @@
 A numeric input with up/down step buttons and a typable, editable text
 field. Inherits `Widget`.
 
-=== "macOS"
-    ![SpinBox screenshot](../assets/screenshots/macos/spin_box.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![SpinBox screenshot](../assets/screenshots/material/spin_box.png)
+![SpinBox screenshot](../assets/screenshots/macos/spin_box.png)
 
-=== "Windows 11"
-    ![SpinBox screenshot](../assets/screenshots/win11/spin_box.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![SpinBox screenshot](../assets/screenshots/win95/spin_box.png)
+![SpinBox screenshot](../assets/screenshots/material/spin_box.png)
 
-=== "Plasma 6"
-    ![SpinBox screenshot](../assets/screenshots/plasma6/spin_box.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![SpinBox screenshot](../assets/screenshots/gnome/spin_box.png)
+![SpinBox screenshot](../assets/screenshots/win11/spin_box.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![SpinBox screenshot](../assets/screenshots/win95/spin_box.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![SpinBox screenshot](../assets/screenshots/plasma6/spin_box.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![SpinBox screenshot](../assets/screenshots/gnome/spin_box.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

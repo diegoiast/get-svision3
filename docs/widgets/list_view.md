@@ -6,23 +6,38 @@ A scrollable, single-column list bound to an [`ItemModel`](item_model.md),
 with single/multi selection and alternating row colors. Inherits
 `ScrollableWidget`.
 
-=== "macOS"
-    ![ListView screenshot](../assets/screenshots/macos/list_view.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ListView screenshot](../assets/screenshots/material/list_view.png)
+![ListView screenshot](../assets/screenshots/macos/list_view.png)
 
-=== "Windows 11"
-    ![ListView screenshot](../assets/screenshots/win11/list_view.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ListView screenshot](../assets/screenshots/win95/list_view.png)
+![ListView screenshot](../assets/screenshots/material/list_view.png)
 
-=== "Plasma 6"
-    ![ListView screenshot](../assets/screenshots/plasma6/list_view.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ListView screenshot](../assets/screenshots/gnome/list_view.png)
+![ListView screenshot](../assets/screenshots/win11/list_view.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ListView screenshot](../assets/screenshots/win95/list_view.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ListView screenshot](../assets/screenshots/plasma6/list_view.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ListView screenshot](../assets/screenshots/gnome/list_view.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

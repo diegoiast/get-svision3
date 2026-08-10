@@ -5,26 +5,44 @@
 A static text display. Multi-line, optionally shrinkable/elidable, and
 never intercepts mouse input itself (`blocks_hit_test()` is `false`) — so a
 label with a `buddy` widget transparently forwards focus/click-through to
-that buddy, mirroring Qt's "buddy" pattern for mnemonic labels next to
+that buddy, mirroring [Qt's "buddy" pattern](https://doc.qt.io/qt-6/qlabel.html#setBuddy) for mnemonic labels next to
 inputs. Inherits `Widget`.
 
-=== "macOS"
-    ![Label screenshot](../assets/screenshots/macos/label.png)
+This widget can only display plain text. If you need to display rich text, use
+[RichLabel](rich_label.md).
 
-=== "Material"
-    ![Label screenshot](../assets/screenshots/material/label.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Windows 11"
-    ![Label screenshot](../assets/screenshots/win11/label.png)
+![Label screenshot](../assets/screenshots/macos/label.png)
 
-=== "Windows 95"
-    ![Label screenshot](../assets/screenshots/win95/label.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Plasma 6"
-    ![Label screenshot](../assets/screenshots/plasma6/label.png)
+![Label screenshot](../assets/screenshots/material/label.png)
 
-=== "GNOME"
-    ![Label screenshot](../assets/screenshots/gnome/label.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![Label screenshot](../assets/screenshots/win11/label.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Label screenshot](../assets/screenshots/win95/label.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Label screenshot](../assets/screenshots/plasma6/label.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Label screenshot](../assets/screenshots/gnome/label.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

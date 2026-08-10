@@ -5,23 +5,38 @@
 Displays a bitmap image with zoom and panning, and an optional
 checkerboard background for transparency. Inherits `ScrollableWidget`.
 
-=== "macOS"
-    ![ImageWidget screenshot](../assets/screenshots/macos/image_widget.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ImageWidget screenshot](../assets/screenshots/material/image_widget.png)
+![ImageWidget screenshot](../assets/screenshots/macos/image_widget.png)
 
-=== "Windows 11"
-    ![ImageWidget screenshot](../assets/screenshots/win11/image_widget.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ImageWidget screenshot](../assets/screenshots/win95/image_widget.png)
+![ImageWidget screenshot](../assets/screenshots/material/image_widget.png)
 
-=== "Plasma 6"
-    ![ImageWidget screenshot](../assets/screenshots/plasma6/image_widget.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ImageWidget screenshot](../assets/screenshots/gnome/image_widget.png)
+![ImageWidget screenshot](../assets/screenshots/win11/image_widget.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ImageWidget screenshot](../assets/screenshots/win95/image_widget.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ImageWidget screenshot](../assets/screenshots/plasma6/image_widget.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ImageWidget screenshot](../assets/screenshots/gnome/image_widget.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

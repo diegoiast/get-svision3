@@ -6,23 +6,38 @@ A pie (or donut) chart with optional legend and slice labels. Unlike the
 other chart widgets, it has no axes/grid and doesn't use `ChartInteraction`
 pan/zoom. Inherits `Widget`.
 
-=== "macOS"
-    ![PieChart screenshot](../assets/screenshots/macos/pie_chart.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![PieChart screenshot](../assets/screenshots/material/pie_chart.png)
+![PieChart screenshot](../assets/screenshots/macos/pie_chart.png)
 
-=== "Windows 11"
-    ![PieChart screenshot](../assets/screenshots/win11/pie_chart.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![PieChart screenshot](../assets/screenshots/win95/pie_chart.png)
+![PieChart screenshot](../assets/screenshots/material/pie_chart.png)
 
-=== "Plasma 6"
-    ![PieChart screenshot](../assets/screenshots/plasma6/pie_chart.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![PieChart screenshot](../assets/screenshots/gnome/pie_chart.png)
+![PieChart screenshot](../assets/screenshots/win11/pie_chart.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![PieChart screenshot](../assets/screenshots/win95/pie_chart.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![PieChart screenshot](../assets/screenshots/plasma6/pie_chart.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![PieChart screenshot](../assets/screenshots/gnome/pie_chart.png)
+
+</TabItem>
+</Tabs>
 
 ## Data type
 

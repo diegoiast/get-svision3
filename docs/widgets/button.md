@@ -18,23 +18,38 @@ Featrures:
   will be periodically triggered.
 
 
-=== "macOS"
-    ![Button screenshot](../assets/screenshots/macos/button.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Button screenshot](../assets/screenshots/material/button.png)
+![Button screenshot](../assets/screenshots/macos/button.png)
 
-=== "Windows 11"
-    ![Button screenshot](../assets/screenshots/win11/button.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Button screenshot](../assets/screenshots/win95/button.png)
+![Button screenshot](../assets/screenshots/material/button.png)
 
-=== "Plasma 6"
-    ![Button screenshot](../assets/screenshots/plasma6/button.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Button screenshot](../assets/screenshots/gnome/button.png)
+![Button screenshot](../assets/screenshots/win11/button.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Button screenshot](../assets/screenshots/win95/button.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Button screenshot](../assets/screenshots/plasma6/button.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Button screenshot](../assets/screenshots/gnome/button.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

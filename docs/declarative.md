@@ -7,13 +7,14 @@ A fluent, declarative wrapper around the widget API, used throughout
 to build a whole window's UI as one expression tree instead of a sequence
 of `std::make_shared<Widget>()` + `->set_x()` statements.
 
-!!! note
-    This lives under `demo/`, not `include/toolkit/` — it isn't part of the
-    installed library. It's example code, header-only, with no source
-    files of its own: copy `declarative.hpp` (and `declarative_charts.hpp`
-    if you use charts) into your own project's include path to use it.
-    Everything it does is expressible with the plain widget API documented
-    elsewhere on this site; this is a more compact way to write it.
+:::note
+This lives under `demo/`, not `include/toolkit/` — it isn't part of the
+installed library. It's example code, header-only, with no source
+files of its own: copy `declarative.hpp` (and `declarative_charts.hpp`
+if you use charts) into your own project's include path to use it.
+Everything it does is expressible with the plain widget API documented
+elsewhere on this site; this is a more compact way to write it.
+:::
 
 ## The core idea: `Element<T>`
 

@@ -6,23 +6,38 @@ A generic scrollable container: set any widget as content and `ScrollArea`
 clips and scrolls it — the widget itself keeps its natural size from
 `size_hint()`. Inherits [`ScrollableWidget`](scrollable_widget.md).
 
-=== "macOS"
-    ![ScrollArea screenshot](../assets/screenshots/macos/scroll_area.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ScrollArea screenshot](../assets/screenshots/material/scroll_area.png)
+![ScrollArea screenshot](../assets/screenshots/macos/scroll_area.png)
 
-=== "Windows 11"
-    ![ScrollArea screenshot](../assets/screenshots/win11/scroll_area.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ScrollArea screenshot](../assets/screenshots/win95/scroll_area.png)
+![ScrollArea screenshot](../assets/screenshots/material/scroll_area.png)
 
-=== "Plasma 6"
-    ![ScrollArea screenshot](../assets/screenshots/plasma6/scroll_area.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ScrollArea screenshot](../assets/screenshots/gnome/scroll_area.png)
+![ScrollArea screenshot](../assets/screenshots/win11/scroll_area.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ScrollArea screenshot](../assets/screenshots/win95/scroll_area.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ScrollArea screenshot](../assets/screenshots/plasma6/scroll_area.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ScrollArea screenshot](../assets/screenshots/gnome/scroll_area.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

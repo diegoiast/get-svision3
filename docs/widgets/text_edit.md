@@ -6,23 +6,55 @@ A multi-line, scrollable plain-text editor with selection, clipboard,
 undo/redo, a line gutter, and current-line highlighting. Inherits
 `ScrollableWidget`.
 
-=== "macOS"
-    ![TextEdit screenshot](../assets/screenshots/macos/text_edit.png)
+:::note
+While this widget works, and has been tested with large data, its not ideal.
+Its been actually vibe coded to the max, and eventually will be completelly
+replaced. I do not consider this "quality code", even tough it does work pretty
+well.
+:::
 
-=== "Material"
-    ![TextEdit screenshot](../assets/screenshots/material/text_edit.png)
+Features:
 
-=== "Windows 11"
-    ![TextEdit screenshot](../assets/screenshots/win11/text_edit.png)
+- Undo/redo system (including merging similar events).
+- Text selection.
+- Copy/Paste/Cut support.
+- Right click menu.
+- Gutter with line numbers - optional.
+- Current line is marked with a different background - optional.
 
-=== "Windows 95"
-    ![TextEdit screenshot](../assets/screenshots/win95/text_edit.png)
 
-=== "Plasma 6"
-    ![TextEdit screenshot](../assets/screenshots/plasma6/text_edit.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "GNOME"
-    ![TextEdit screenshot](../assets/screenshots/gnome/text_edit.png)
+![TextEdit screenshot](../assets/screenshots/macos/text_edit.png)
+
+</TabItem>
+<TabItem value="material" label="Material">
+
+![TextEdit screenshot](../assets/screenshots/material/text_edit.png)
+
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![TextEdit screenshot](../assets/screenshots/win11/text_edit.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![TextEdit screenshot](../assets/screenshots/win95/text_edit.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![TextEdit screenshot](../assets/screenshots/plasma6/text_edit.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![TextEdit screenshot](../assets/screenshots/gnome/text_edit.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

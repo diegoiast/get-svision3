@@ -5,23 +5,38 @@
 A horizontal bar of top-level [`Menu`](menu.md)s (File, Edit, …), with
 mnemonic (Alt+letter) keyboard navigation between them. Inherits `Widget`.
 
-=== "macOS"
-    ![MenuBar screenshot](../assets/screenshots/macos/menubar.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![MenuBar screenshot](../assets/screenshots/material/menubar.png)
+![MenuBar screenshot](../assets/screenshots/macos/menubar.png)
 
-=== "Windows 11"
-    ![MenuBar screenshot](../assets/screenshots/win11/menubar.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![MenuBar screenshot](../assets/screenshots/win95/menubar.png)
+![MenuBar screenshot](../assets/screenshots/material/menubar.png)
 
-=== "Plasma 6"
-    ![MenuBar screenshot](../assets/screenshots/plasma6/menubar.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![MenuBar screenshot](../assets/screenshots/gnome/menubar.png)
+![MenuBar screenshot](../assets/screenshots/win11/menubar.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![MenuBar screenshot](../assets/screenshots/win95/menubar.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![MenuBar screenshot](../assets/screenshots/plasma6/menubar.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![MenuBar screenshot](../assets/screenshots/gnome/menubar.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

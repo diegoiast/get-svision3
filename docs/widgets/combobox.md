@@ -5,23 +5,40 @@
 A dropdown selection widget over a fixed list of strings. Inherits
 `Widget`.
 
-=== "macOS"
-    ![Combobox screenshot](../assets/screenshots/macos/combobox.png)
+The input for the values in a `std::vector<std::string>>`.
 
-=== "Material"
-    ![Combobox screenshot](../assets/screenshots/material/combobox.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Windows 11"
-    ![Combobox screenshot](../assets/screenshots/win11/combobox.png)
+![Combobox screenshot](../assets/screenshots/macos/combobox.png)
 
-=== "Windows 95"
-    ![Combobox screenshot](../assets/screenshots/win95/combobox.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Plasma 6"
-    ![Combobox screenshot](../assets/screenshots/plasma6/combobox.png)
+![Combobox screenshot](../assets/screenshots/material/combobox.png)
 
-=== "GNOME"
-    ![Combobox screenshot](../assets/screenshots/gnome/combobox.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![Combobox screenshot](../assets/screenshots/win11/combobox.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Combobox screenshot](../assets/screenshots/win95/combobox.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Combobox screenshot](../assets/screenshots/plasma6/combobox.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Combobox screenshot](../assets/screenshots/gnome/combobox.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

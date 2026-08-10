@@ -7,23 +7,38 @@ of `Button`s and makes them behave like a mutually exclusive toggle group
 (only one button in the group is checked at a time), similar to a segmented
 control.
 
-=== "macOS"
-    ![ButtonGroup screenshot](../assets/screenshots/macos/button_group.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ButtonGroup screenshot](../assets/screenshots/material/button_group.png)
+![ButtonGroup screenshot](../assets/screenshots/macos/button_group.png)
 
-=== "Windows 11"
-    ![ButtonGroup screenshot](../assets/screenshots/win11/button_group.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ButtonGroup screenshot](../assets/screenshots/win95/button_group.png)
+![ButtonGroup screenshot](../assets/screenshots/material/button_group.png)
 
-=== "Plasma 6"
-    ![ButtonGroup screenshot](../assets/screenshots/plasma6/button_group.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ButtonGroup screenshot](../assets/screenshots/gnome/button_group.png)
+![ButtonGroup screenshot](../assets/screenshots/win11/button_group.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ButtonGroup screenshot](../assets/screenshots/win95/button_group.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ButtonGroup screenshot](../assets/screenshots/plasma6/button_group.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ButtonGroup screenshot](../assets/screenshots/gnome/button_group.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

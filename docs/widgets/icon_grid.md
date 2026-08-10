@@ -7,23 +7,39 @@ single/multi selection, rubber-band (drag) selection, and keyboard
 navigation — the layout used by file/icon browsers. Inherits
 `ScrollableWidget`.
 
-=== "macOS"
-    ![IconGrid screenshot](../assets/screenshots/macos/icon_grid.png)
 
-=== "Material"
-    ![IconGrid screenshot](../assets/screenshots/material/icon_grid.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Windows 11"
-    ![IconGrid screenshot](../assets/screenshots/win11/icon_grid.png)
+![IconGrid screenshot](../assets/screenshots/macos/icon_grid.png)
 
-=== "Windows 95"
-    ![IconGrid screenshot](../assets/screenshots/win95/icon_grid.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Plasma 6"
-    ![IconGrid screenshot](../assets/screenshots/plasma6/icon_grid.png)
+![IconGrid screenshot](../assets/screenshots/material/icon_grid.png)
 
-=== "GNOME"
-    ![IconGrid screenshot](../assets/screenshots/gnome/icon_grid.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![IconGrid screenshot](../assets/screenshots/win11/icon_grid.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![IconGrid screenshot](../assets/screenshots/win95/icon_grid.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![IconGrid screenshot](../assets/screenshots/plasma6/icon_grid.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![IconGrid screenshot](../assets/screenshots/gnome/icon_grid.png)
+
+</TabItem>
+</Tabs>
 
 ## Construction
 

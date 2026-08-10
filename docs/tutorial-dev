@@ -1,0 +1,107 @@
+# Tutorial
+
+This walks through getting SVision3 building on your machine and writing a
+minimal window with a label and a button.
+
+## Prerequisites
+
+- A C++20 compiler (GCC, Clang, or MSVC)
+- [CMake](https://cmake.org/) and [Conan 2](https://conan.io/)
+- On Linux, `harfbuzz` and `freetype` installed via your system package
+  manager (required on every distro, regardless of windowing backend)
+
+## 1. Install dependencies with Conan
+
+From the repository root:
+
+```bash
+conan install . --build=missing
+```
+
+This resolves `cairo`, `spdlog`, and `Catch2`.
+
+## 2. Configure and build
+
+<Tabs>
+<TabItem value="ninja" label="Ninja / Make (Linux, macOS)">
+
+```bash
+cmake --preset conan-release
+cmake --build build/Release
+```
+
+</TabItem>
+<TabItem value="vs" label="Visual Studio (Windows)">
+
+```bash
+cmake --preset conan-default
+cmake --build --preset conan-release
+```
+
+</TabItem>
+</Tabs>
+
+## 3. Run the demo
+
+```bash
+./build/Release/demo
+```
+
+You should see the demo application window open, showing off the toolkit's
+widgets and themes.
+
+## 4. Write your first window
+
+Create a `main.cpp`:
+
+```cpp
+#include "toolkit/application.hpp"
+#include "toolkit/button.hpp"
+#include "toolkit/label.hpp"
+#include "toolkit/layout.hpp"
+#include "toolkit/window.hpp"
+
+int main() {
+    toolkit::Application app;
+    auto window = app.create_window("Hello", {400, 200});
+
+    // note the chainability, you get a reference to the widget
+    auto root = std::make_unique<toolkit::VBoxLayout>()
+        .set_margins({20, 20, 20, 20})
+        .set_spacing(12);
+    root->add_widget(std::make_unique<toolkit::Label>("Hello, world!"));
+    root->add_widget(std::make_unique<toolkit::Button>("&Quit"))->on_click = [window] {
+        // simple lambda as callback,
+        window->close();
+    };
+
+    window->set_root(std::move(root));
+    window->show();
+    return app.run();
+}
+```
+
+A few things worth noting:
+
+- `Application` owns the event loop; `app.run()` blocks until the last
+  window closes.
+- Widgets are owned via `std::unique_ptr` and handed to their parent layout
+  or window — no manual memory management or parenting calls needed.
+- `&Quit` renders as **Q**uit with the `Q` underlined as a mnemonic
+  (Alt+Q activates the button on platforms that support it).
+- Layouts (`VBoxLayout` here) stack widgets vertically; use `HBoxLayout`
+  for horizontal arrangements, and nest them to build more complex UIs.
+
+## 5. Pick a rendering backend (optional)
+
+The default backend is native per platform (CoreGraphics on macOS, GDI+ on
+Windows, Cairo on Linux). Override it at runtime:
+
+```bash
+SVISION_PAINT=opengl ./build/Release/demo
+```
+
+## Next steps
+
+Browse the [widget and module reference](widgets.md) to see everything
+available — layouts, widgets, charts, theming, and more.

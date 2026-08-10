@@ -8,23 +8,45 @@ OK/Cancel) — used to build [`FileDialog`](file_dialog.md) and
 [`DirectoryDialog`](directory_dialog.md), and reusable standalone in
 "browser mode". Inherits `VBoxLayout`.
 
-=== "macOS"
-    ![FileBrowserWidget screenshot](../assets/screenshots/macos/file_browser_widget.png)
+Features:
 
-=== "Material"
-    ![FileBrowserWidget screenshot](../assets/screenshots/material/file_browser_widget.png)
+- Home/up/back/forward navitation
+- Menu to hide/show hidden files.
+- Option to show icons, list, or details
+- Right click menu
 
-=== "Windows 11"
-    ![FileBrowserWidget screenshot](../assets/screenshots/win11/file_browser_widget.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Windows 95"
-    ![FileBrowserWidget screenshot](../assets/screenshots/win95/file_browser_widget.png)
+![FileBrowserWidget screenshot](../assets/screenshots/macos/file_browser_widget.png)
 
-=== "Plasma 6"
-    ![FileBrowserWidget screenshot](../assets/screenshots/plasma6/file_browser_widget.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "GNOME"
-    ![FileBrowserWidget screenshot](../assets/screenshots/gnome/file_browser_widget.png)
+![FileBrowserWidget screenshot](../assets/screenshots/material/file_browser_widget.png)
+
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![FileBrowserWidget screenshot](../assets/screenshots/win11/file_browser_widget.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![FileBrowserWidget screenshot](../assets/screenshots/win95/file_browser_widget.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![FileBrowserWidget screenshot](../assets/screenshots/plasma6/file_browser_widget.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![FileBrowserWidget screenshot](../assets/screenshots/gnome/file_browser_widget.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 
