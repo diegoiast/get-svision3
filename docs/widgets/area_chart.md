@@ -6,23 +6,38 @@ A multi-series filled line (area) chart with grid, legend, hover
 tooltips, and pan & zoom (see the [charts overview](charts_overview.md)).
 Inherits `Widget`.
 
-=== "macOS"
-    ![AreaChart screenshot](../assets/screenshots/macos/area_chart.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![AreaChart screenshot](../assets/screenshots/material/area_chart.png)
+![AreaChart screenshot](../assets/screenshots/macos/area_chart.png)
 
-=== "Windows 11"
-    ![AreaChart screenshot](../assets/screenshots/win11/area_chart.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![AreaChart screenshot](../assets/screenshots/win95/area_chart.png)
+![AreaChart screenshot](../assets/screenshots/material/area_chart.png)
 
-=== "Plasma 6"
-    ![AreaChart screenshot](../assets/screenshots/plasma6/area_chart.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![AreaChart screenshot](../assets/screenshots/gnome/area_chart.png)
+![AreaChart screenshot](../assets/screenshots/win11/area_chart.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![AreaChart screenshot](../assets/screenshots/win95/area_chart.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![AreaChart screenshot](../assets/screenshots/plasma6/area_chart.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![AreaChart screenshot](../assets/screenshots/gnome/area_chart.png)
+
+</TabItem>
+</Tabs>
 
 ## Data types
 

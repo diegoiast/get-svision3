@@ -7,23 +7,38 @@ A rich-text label: a thin, label-like wrapper around
 opposed to `HtmlView` used as a full scrollable document view). Inherits
 `HtmlView`.
 
-=== "macOS"
-    ![RichLabel screenshot](../assets/screenshots/macos/rich_label.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![RichLabel screenshot](../assets/screenshots/material/rich_label.png)
+![RichLabel screenshot](../assets/screenshots/macos/rich_label.png)
 
-=== "Windows 11"
-    ![RichLabel screenshot](../assets/screenshots/win11/rich_label.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![RichLabel screenshot](../assets/screenshots/win95/rich_label.png)
+![RichLabel screenshot](../assets/screenshots/material/rich_label.png)
 
-=== "Plasma 6"
-    ![RichLabel screenshot](../assets/screenshots/plasma6/rich_label.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![RichLabel screenshot](../assets/screenshots/gnome/rich_label.png)
+![RichLabel screenshot](../assets/screenshots/win11/rich_label.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![RichLabel screenshot](../assets/screenshots/win95/rich_label.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![RichLabel screenshot](../assets/screenshots/plasma6/rich_label.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![RichLabel screenshot](../assets/screenshots/gnome/rich_label.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

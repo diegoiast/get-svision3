@@ -7,23 +7,38 @@ A one-shot popup menu (right-click menu) built from a list of
 attached to a widget beforehand — construct it with its items and call
 `show()` at the click position.
 
-=== "macOS"
-    ![ContextMenu screenshot](../assets/screenshots/macos/context_menu.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ContextMenu screenshot](../assets/screenshots/material/context_menu.png)
+![ContextMenu screenshot](../assets/screenshots/macos/context_menu.png)
 
-=== "Windows 11"
-    ![ContextMenu screenshot](../assets/screenshots/win11/context_menu.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ContextMenu screenshot](../assets/screenshots/win95/context_menu.png)
+![ContextMenu screenshot](../assets/screenshots/material/context_menu.png)
 
-=== "Plasma 6"
-    ![ContextMenu screenshot](../assets/screenshots/plasma6/context_menu.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ContextMenu screenshot](../assets/screenshots/gnome/context_menu.png)
+![ContextMenu screenshot](../assets/screenshots/win11/context_menu.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ContextMenu screenshot](../assets/screenshots/win95/context_menu.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ContextMenu screenshot](../assets/screenshots/plasma6/context_menu.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ContextMenu screenshot](../assets/screenshots/gnome/context_menu.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

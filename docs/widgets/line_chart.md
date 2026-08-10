@@ -6,23 +6,38 @@ A multi-series line chart with grid, legend, hover tooltips, and
 scroll/drag pan & zoom (see the [charts overview](charts_overview.md)).
 Inherits `Widget`.
 
-=== "macOS"
-    ![LineChart screenshot](../assets/screenshots/macos/line_chart.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![LineChart screenshot](../assets/screenshots/material/line_chart.png)
+![LineChart screenshot](../assets/screenshots/macos/line_chart.png)
 
-=== "Windows 11"
-    ![LineChart screenshot](../assets/screenshots/win11/line_chart.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![LineChart screenshot](../assets/screenshots/win95/line_chart.png)
+![LineChart screenshot](../assets/screenshots/material/line_chart.png)
 
-=== "Plasma 6"
-    ![LineChart screenshot](../assets/screenshots/plasma6/line_chart.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![LineChart screenshot](../assets/screenshots/gnome/line_chart.png)
+![LineChart screenshot](../assets/screenshots/win11/line_chart.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![LineChart screenshot](../assets/screenshots/win95/line_chart.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![LineChart screenshot](../assets/screenshots/plasma6/line_chart.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![LineChart screenshot](../assets/screenshots/gnome/line_chart.png)
+
+</TabItem>
+</Tabs>
 
 ## Data types
 

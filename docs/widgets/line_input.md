@@ -3,26 +3,51 @@
 `#include "toolkit/line_input.hpp"`
 
 A single-line text input with selection, clipboard (cut/copy/paste),
-undo/redo, password mode, validation, a right-hand-side clear/peek button,
-and bidirectional (RTL/LTR) text support. Inherits `Widget`.
+undo/redo, password mode, validation, a right-hand-side clear/peek button,.
+Inherits `Widget`.
 
-=== "macOS"
-    ![LineInput screenshot](../assets/screenshots/macos/line_input.png)
+Features:
 
-=== "Material"
-    ![LineInput screenshot](../assets/screenshots/material/line_input.png)
+* Clear button.
+* Can be read only.
+* Can display a "hint" when no text is set.
+* Password mode (which shows another peel button on the side),`
+* Validator - which can also prevent adding invalid text.
+* Undo/Redo system (with merging of similar events).
+* Copy/paste/cut and right click menu.
 
-=== "Windows 11"
-    ![LineInput screenshot](../assets/screenshots/win11/line_input.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Windows 95"
-    ![LineInput screenshot](../assets/screenshots/win95/line_input.png)
+![LineInput screenshot](../assets/screenshots/macos/line_input.png)
 
-=== "Plasma 6"
-    ![LineInput screenshot](../assets/screenshots/plasma6/line_input.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "GNOME"
-    ![LineInput screenshot](../assets/screenshots/gnome/line_input.png)
+![LineInput screenshot](../assets/screenshots/material/line_input.png)
+
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![LineInput screenshot](../assets/screenshots/win11/line_input.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![LineInput screenshot](../assets/screenshots/win95/line_input.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![LineInput screenshot](../assets/screenshots/plasma6/line_input.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![LineInput screenshot](../assets/screenshots/gnome/line_input.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

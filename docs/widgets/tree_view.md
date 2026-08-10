@@ -5,23 +5,38 @@
 A scrollable, expandable/collapsible tree bound to a `TreeModel`, with
 single/multi selection. Inherits `ScrollableWidget`.
 
-=== "macOS"
-    ![TreeView screenshot](../assets/screenshots/macos/tree_view.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![TreeView screenshot](../assets/screenshots/material/tree_view.png)
+![TreeView screenshot](../assets/screenshots/macos/tree_view.png)
 
-=== "Windows 11"
-    ![TreeView screenshot](../assets/screenshots/win11/tree_view.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![TreeView screenshot](../assets/screenshots/win95/tree_view.png)
+![TreeView screenshot](../assets/screenshots/material/tree_view.png)
 
-=== "Plasma 6"
-    ![TreeView screenshot](../assets/screenshots/plasma6/tree_view.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![TreeView screenshot](../assets/screenshots/gnome/tree_view.png)
+![TreeView screenshot](../assets/screenshots/win11/tree_view.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![TreeView screenshot](../assets/screenshots/win95/tree_view.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![TreeView screenshot](../assets/screenshots/plasma6/tree_view.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![TreeView screenshot](../assets/screenshots/gnome/tree_view.png)
+
+</TabItem>
+</Tabs>
 
 ## TreeModel
 

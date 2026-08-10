@@ -6,23 +6,38 @@ A stacked (or normalized/100%) bar chart over a shared set of categories,
 with grid, legend, hover tooltips, and pan & zoom (see the
 [charts overview](charts_overview.md)). Inherits `Widget`.
 
-=== "macOS"
-    ![StackedBarChart screenshot](../assets/screenshots/macos/stacked_bar_chart.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![StackedBarChart screenshot](../assets/screenshots/material/stacked_bar_chart.png)
+![StackedBarChart screenshot](../assets/screenshots/macos/stacked_bar_chart.png)
 
-=== "Windows 11"
-    ![StackedBarChart screenshot](../assets/screenshots/win11/stacked_bar_chart.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![StackedBarChart screenshot](../assets/screenshots/win95/stacked_bar_chart.png)
+![StackedBarChart screenshot](../assets/screenshots/material/stacked_bar_chart.png)
 
-=== "Plasma 6"
-    ![StackedBarChart screenshot](../assets/screenshots/plasma6/stacked_bar_chart.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![StackedBarChart screenshot](../assets/screenshots/gnome/stacked_bar_chart.png)
+![StackedBarChart screenshot](../assets/screenshots/win11/stacked_bar_chart.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![StackedBarChart screenshot](../assets/screenshots/win95/stacked_bar_chart.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![StackedBarChart screenshot](../assets/screenshots/plasma6/stacked_bar_chart.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![StackedBarChart screenshot](../assets/screenshots/gnome/stacked_bar_chart.png)
+
+</TabItem>
+</Tabs>
 
 ## Data types
 

@@ -8,23 +8,47 @@ widgets in the tab bar. Used both as a plain tab strip and, via
 [`DockArea`](dock_area.md), as the panel host for docking. Inherits
 `Widget`.
 
-=== "macOS"
-    ![TabWidget screenshot](../assets/screenshots/macos/tab_widget.png)
+Features:
 
-=== "Material"
-    ![TabWidget screenshot](../assets/screenshots/material/tab_widget.png)
+- Closable tabs (you can register to be notified when a tab is aboue to close)
+- Moveable tabs
+- Tabs can be on east/west/north/south.
+- Tabs can be on east/west with horizontal text (not only vertical).
+- Tabs can be collapsed, meaning only then tab header is visible (used on docked widget on main window).
 
-=== "Windows 11"
-    ![TabWidget screenshot](../assets/screenshots/win11/tab_widget.png)
 
-=== "Windows 95"
-    ![TabWidget screenshot](../assets/screenshots/win95/tab_widget.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Plasma 6"
-    ![TabWidget screenshot](../assets/screenshots/plasma6/tab_widget.png)
+![TabWidget screenshot](../assets/screenshots/macos/tab_widget.png)
 
-=== "GNOME"
-    ![TabWidget screenshot](../assets/screenshots/gnome/tab_widget.png)
+</TabItem>
+<TabItem value="material" label="Material">
+
+![TabWidget screenshot](../assets/screenshots/material/tab_widget.png)
+
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![TabWidget screenshot](../assets/screenshots/win11/tab_widget.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![TabWidget screenshot](../assets/screenshots/win95/tab_widget.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![TabWidget screenshot](../assets/screenshots/plasma6/tab_widget.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![TabWidget screenshot](../assets/screenshots/gnome/tab_widget.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

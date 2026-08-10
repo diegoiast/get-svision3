@@ -3,25 +3,42 @@
 `#include "toolkit/checkbox.hpp"`
 
 A labeled checkbox with two-state and optional tri-state (partial) modes.
-Inherits `Widget`.
+Inherits `Widget`. You can also `set_enabled(false)` to the widget,
+and it will not be clickable by the user, and drawed in gray (depending on palette
+and Style).
 
-=== "macOS"
-    ![Checkbox screenshot](../assets/screenshots/macos/checkbox.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Checkbox screenshot](../assets/screenshots/material/checkbox.png)
+![Checkbox screenshot](../assets/screenshots/macos/checkbox.png)
 
-=== "Windows 11"
-    ![Checkbox screenshot](../assets/screenshots/win11/checkbox.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Checkbox screenshot](../assets/screenshots/win95/checkbox.png)
+![Checkbox screenshot](../assets/screenshots/material/checkbox.png)
 
-=== "Plasma 6"
-    ![Checkbox screenshot](../assets/screenshots/plasma6/checkbox.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Checkbox screenshot](../assets/screenshots/gnome/checkbox.png)
+![Checkbox screenshot](../assets/screenshots/win11/checkbox.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Checkbox screenshot](../assets/screenshots/win95/checkbox.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Checkbox screenshot](../assets/screenshots/plasma6/checkbox.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Checkbox screenshot](../assets/screenshots/gnome/checkbox.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

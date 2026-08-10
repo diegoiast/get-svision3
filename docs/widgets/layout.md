@@ -9,23 +9,38 @@ Children are owned via `shared_ptr`; every `add_*` call hands back a
 `weak_ptr` to what it just stored, since a layout keeping a `shared_ptr` in
 a sibling's callback would form a reference cycle that never frees.
 
-=== "macOS"
-    ![Layouts screenshot](../assets/screenshots/macos/layout.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Layouts screenshot](../assets/screenshots/material/layout.png)
+![Layouts screenshot](../assets/screenshots/macos/layout.png)
 
-=== "Windows 11"
-    ![Layouts screenshot](../assets/screenshots/win11/layout.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Layouts screenshot](../assets/screenshots/win95/layout.png)
+![Layouts screenshot](../assets/screenshots/material/layout.png)
 
-=== "Plasma 6"
-    ![Layouts screenshot](../assets/screenshots/plasma6/layout.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Layouts screenshot](../assets/screenshots/gnome/layout.png)
+![Layouts screenshot](../assets/screenshots/win11/layout.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Layouts screenshot](../assets/screenshots/win95/layout.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Layouts screenshot](../assets/screenshots/plasma6/layout.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Layouts screenshot](../assets/screenshots/gnome/layout.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

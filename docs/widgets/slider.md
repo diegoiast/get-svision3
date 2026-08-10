@@ -5,23 +5,38 @@
 A draggable horizontal or vertical slider over a `float` range. Inherits
 `Widget`.
 
-=== "macOS"
-    ![Slider screenshot](../assets/screenshots/macos/slider.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Slider screenshot](../assets/screenshots/material/slider.png)
+![Slider screenshot](../assets/screenshots/macos/slider.png)
 
-=== "Windows 11"
-    ![Slider screenshot](../assets/screenshots/win11/slider.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Slider screenshot](../assets/screenshots/win95/slider.png)
+![Slider screenshot](../assets/screenshots/material/slider.png)
 
-=== "Plasma 6"
-    ![Slider screenshot](../assets/screenshots/plasma6/slider.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Slider screenshot](../assets/screenshots/gnome/slider.png)
+![Slider screenshot](../assets/screenshots/win11/slider.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Slider screenshot](../assets/screenshots/win95/slider.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Slider screenshot](../assets/screenshots/plasma6/slider.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Slider screenshot](../assets/screenshots/gnome/slider.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

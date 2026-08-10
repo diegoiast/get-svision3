@@ -5,23 +5,38 @@
 A simple, non-interactive progress indicator over a `0.0`–`1.0` range.
 Inherits `Widget`.
 
-=== "macOS"
-    ![ProgressBar screenshot](../assets/screenshots/macos/progress_bar.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ProgressBar screenshot](../assets/screenshots/material/progress_bar.png)
+![ProgressBar screenshot](../assets/screenshots/macos/progress_bar.png)
 
-=== "Windows 11"
-    ![ProgressBar screenshot](../assets/screenshots/win11/progress_bar.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ProgressBar screenshot](../assets/screenshots/win95/progress_bar.png)
+![ProgressBar screenshot](../assets/screenshots/material/progress_bar.png)
 
-=== "Plasma 6"
-    ![ProgressBar screenshot](../assets/screenshots/plasma6/progress_bar.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ProgressBar screenshot](../assets/screenshots/gnome/progress_bar.png)
+![ProgressBar screenshot](../assets/screenshots/win11/progress_bar.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ProgressBar screenshot](../assets/screenshots/win95/progress_bar.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ProgressBar screenshot](../assets/screenshots/plasma6/progress_bar.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ProgressBar screenshot](../assets/screenshots/gnome/progress_bar.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

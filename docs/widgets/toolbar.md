@@ -5,23 +5,38 @@
 A horizontal strip of [`Command`](command.md)-backed buttons, separators,
 and arbitrary embedded widgets. Inherits `Widget`.
 
-=== "macOS"
-    ![Toolbar screenshot](../assets/screenshots/macos/toolbar.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Toolbar screenshot](../assets/screenshots/material/toolbar.png)
+![Toolbar screenshot](../assets/screenshots/macos/toolbar.png)
 
-=== "Windows 11"
-    ![Toolbar screenshot](../assets/screenshots/win11/toolbar.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Toolbar screenshot](../assets/screenshots/win95/toolbar.png)
+![Toolbar screenshot](../assets/screenshots/material/toolbar.png)
 
-=== "Plasma 6"
-    ![Toolbar screenshot](../assets/screenshots/plasma6/toolbar.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Toolbar screenshot](../assets/screenshots/gnome/toolbar.png)
+![Toolbar screenshot](../assets/screenshots/win11/toolbar.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Toolbar screenshot](../assets/screenshots/win95/toolbar.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Toolbar screenshot](../assets/screenshots/plasma6/toolbar.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Toolbar screenshot](../assets/screenshots/gnome/toolbar.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

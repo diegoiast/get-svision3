@@ -6,23 +6,38 @@ A multi-series (grouped) bar chart with grid, legend, hover tooltips, and
 pan & zoom (see the [charts overview](charts_overview.md)). Inherits
 `Widget`.
 
-=== "macOS"
-    ![BarChart screenshot](../assets/screenshots/macos/bar_chart.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![BarChart screenshot](../assets/screenshots/material/bar_chart.png)
+![BarChart screenshot](../assets/screenshots/macos/bar_chart.png)
 
-=== "Windows 11"
-    ![BarChart screenshot](../assets/screenshots/win11/bar_chart.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![BarChart screenshot](../assets/screenshots/win95/bar_chart.png)
+![BarChart screenshot](../assets/screenshots/material/bar_chart.png)
 
-=== "Plasma 6"
-    ![BarChart screenshot](../assets/screenshots/plasma6/bar_chart.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![BarChart screenshot](../assets/screenshots/gnome/bar_chart.png)
+![BarChart screenshot](../assets/screenshots/win11/bar_chart.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![BarChart screenshot](../assets/screenshots/win95/bar_chart.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![BarChart screenshot](../assets/screenshots/plasma6/bar_chart.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![BarChart screenshot](../assets/screenshots/gnome/bar_chart.png)
+
+</TabItem>
+</Tabs>
 
 ## Data types
 

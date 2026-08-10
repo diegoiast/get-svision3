@@ -6,23 +6,38 @@ An OHLC (open/high/low/close) candlestick chart, e.g. for financial/stock
 data, with grid, hover tooltips, and pan & zoom (see the
 [charts overview](charts_overview.md)). Inherits `Widget`.
 
-=== "macOS"
-    ![CandlestickChart screenshot](../assets/screenshots/macos/candlestick_chart.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![CandlestickChart screenshot](../assets/screenshots/material/candlestick_chart.png)
+![CandlestickChart screenshot](../assets/screenshots/macos/candlestick_chart.png)
 
-=== "Windows 11"
-    ![CandlestickChart screenshot](../assets/screenshots/win11/candlestick_chart.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![CandlestickChart screenshot](../assets/screenshots/win95/candlestick_chart.png)
+![CandlestickChart screenshot](../assets/screenshots/material/candlestick_chart.png)
 
-=== "Plasma 6"
-    ![CandlestickChart screenshot](../assets/screenshots/plasma6/candlestick_chart.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![CandlestickChart screenshot](../assets/screenshots/gnome/candlestick_chart.png)
+![CandlestickChart screenshot](../assets/screenshots/win11/candlestick_chart.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![CandlestickChart screenshot](../assets/screenshots/win95/candlestick_chart.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![CandlestickChart screenshot](../assets/screenshots/plasma6/candlestick_chart.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![CandlestickChart screenshot](../assets/screenshots/gnome/candlestick_chart.png)
+
+</TabItem>
+</Tabs>
 
 ## Data types
 

@@ -1,4 +1,14 @@
+# MkDocs (main branch)
 .venv/
 site/
 __pycache__/
 *.pyc
+
+# Docusaurus (docusaurus branch)
+node_modules/
+.docusaurus/
+build/
+.cache-loader/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

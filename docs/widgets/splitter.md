@@ -7,23 +7,38 @@ dividers. Ratios, per-divider locking, and per-child resize stretch
 factors are all configurable. [`DockArea`](dock_area.md) builds a nested
 tree of `Splitter`s internally. Inherits `Widget`.
 
-=== "macOS"
-    ![Splitter screenshot](../assets/screenshots/macos/splitter.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Splitter screenshot](../assets/screenshots/material/splitter.png)
+![Splitter screenshot](../assets/screenshots/macos/splitter.png)
 
-=== "Windows 11"
-    ![Splitter screenshot](../assets/screenshots/win11/splitter.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Splitter screenshot](../assets/screenshots/win95/splitter.png)
+![Splitter screenshot](../assets/screenshots/material/splitter.png)
 
-=== "Plasma 6"
-    ![Splitter screenshot](../assets/screenshots/plasma6/splitter.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Splitter screenshot](../assets/screenshots/gnome/splitter.png)
+![Splitter screenshot](../assets/screenshots/win11/splitter.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Splitter screenshot](../assets/screenshots/win95/splitter.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Splitter screenshot](../assets/screenshots/plasma6/splitter.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Splitter screenshot](../assets/screenshots/gnome/splitter.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

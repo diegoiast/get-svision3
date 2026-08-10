@@ -6,23 +6,38 @@ A scrollable, multi-column table bound to an [`ItemModel`](item_model.md),
 with a resizable/sortable header, selection, per-column comparators, row
 tooltips, and a row context-menu hook. Inherits `ScrollableWidget`.
 
-=== "macOS"
-    ![TableView screenshot](../assets/screenshots/macos/table_view.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![TableView screenshot](../assets/screenshots/material/table_view.png)
+![TableView screenshot](../assets/screenshots/macos/table_view.png)
 
-=== "Windows 11"
-    ![TableView screenshot](../assets/screenshots/win11/table_view.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![TableView screenshot](../assets/screenshots/win95/table_view.png)
+![TableView screenshot](../assets/screenshots/material/table_view.png)
 
-=== "Plasma 6"
-    ![TableView screenshot](../assets/screenshots/plasma6/table_view.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![TableView screenshot](../assets/screenshots/gnome/table_view.png)
+![TableView screenshot](../assets/screenshots/win11/table_view.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![TableView screenshot](../assets/screenshots/win95/table_view.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![TableView screenshot](../assets/screenshots/plasma6/table_view.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![TableView screenshot](../assets/screenshots/gnome/table_view.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

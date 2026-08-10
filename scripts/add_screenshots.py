@@ -6,6 +6,10 @@ Run this after copying fresh screenshots into docs/assets/screenshots/ (see
 README.md). Safe to re-run: it replaces an existing gallery block in place
 rather than duplicating it, so it's fine to run every time screenshots are
 regenerated, or after adding a new widget to widget_screenshot's registry.
+
+Emits Docusaurus MDX <Tabs>/<TabItem> markup. <Tabs>/<TabItem> are
+registered as global MDX components (see src/theme/MDXComponents.js), so no
+per-file import is needed.
 """
 from pathlib import Path
 
@@ -26,13 +30,15 @@ THEMES = [
 
 
 def gallery_block(title: str, name: str) -> list[str]:
-    lines = []
+    lines = ["<Tabs>"]
     for slug, label in THEMES:
-        lines.append(f'=== "{label}"')
-        lines.append(f"    ![{title} screenshot](../assets/screenshots/{slug}/{name}.png)")
+        value = label.lower().replace(" ", "-")
+        lines.append(f'<TabItem value="{value}" label="{label}">')
         lines.append("")
-    if lines and lines[-1] == "":
-        lines.pop()
+        lines.append(f"![{title} screenshot](../assets/screenshots/{slug}/{name}.png)")
+        lines.append("")
+        lines.append("</TabItem>")
+    lines.append("</Tabs>")
     return lines
 
 
@@ -44,13 +50,10 @@ def update_page(md_path: Path, name: str) -> bool:
     title = lines[0].lstrip("# ").strip()
     block = gallery_block(title, name)
 
-    first_theme_line = f'=== "{THEMES[0][1]}"'
     heading_idxs = [i for i, l in enumerate(lines) if l.startswith("## ")]
 
-    if first_theme_line in lines:
-        start = lines.index(first_theme_line)
-        # heading_idxs points at "## ..." lines directly, so this is already
-        # the exact boundary -- no blank-line trimming needed either side.
+    if "<Tabs>" in lines:
+        start = lines.index("<Tabs>")
         end = next((i for i in heading_idxs if i > start), len(lines))
         new_lines = lines[:start] + block + [""] + lines[end:]
     else:

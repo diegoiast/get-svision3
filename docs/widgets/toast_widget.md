@@ -5,23 +5,50 @@
 A transient notification popup with a title, body text (plain or rich),
 a close button, and an auto-dismiss timeout. Inherits `Widget`.
 
-=== "macOS"
-    ![ToastWidget screenshot](../assets/screenshots/macos/toast_widget.png)
+This can be used by your application to notify the user with some message, in
+a non blocking way. Toast widgets sit on the left/bottom side of your window,
+and are stacked on top, and have a timeout - after said timeout the toasts
+automatically closes.
 
-=== "Material"
-    ![ToastWidget screenshot](../assets/screenshots/material/toast_widget.png)
+Features:
 
-=== "Windows 11"
-    ![ToastWidget screenshot](../assets/screenshots/win11/toast_widget.png)
+- Plain text or rich text (markdown).
+- Timeout in seconds.
+- Different background per request.
 
-=== "Windows 95"
-    ![ToastWidget screenshot](../assets/screenshots/win95/toast_widget.png)
 
-=== "Plasma 6"
-    ![ToastWidget screenshot](../assets/screenshots/plasma6/toast_widget.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "GNOME"
-    ![ToastWidget screenshot](../assets/screenshots/gnome/toast_widget.png)
+![ToastWidget screenshot](../assets/screenshots/macos/toast_widget.png)
+
+</TabItem>
+<TabItem value="material" label="Material">
+
+![ToastWidget screenshot](../assets/screenshots/material/toast_widget.png)
+
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![ToastWidget screenshot](../assets/screenshots/win11/toast_widget.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ToastWidget screenshot](../assets/screenshots/win95/toast_widget.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ToastWidget screenshot](../assets/screenshots/plasma6/toast_widget.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ToastWidget screenshot](../assets/screenshots/gnome/toast_widget.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

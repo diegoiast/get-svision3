@@ -6,23 +6,38 @@ Bins raw values into a configurable number of buckets and renders them as
 a bar histogram, with grid, legend, hover tooltips, and pan & zoom (see
 the [charts overview](charts_overview.md)). Inherits `Widget`.
 
-=== "macOS"
-    ![Histogram screenshot](../assets/screenshots/macos/histogram.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Histogram screenshot](../assets/screenshots/material/histogram.png)
+![Histogram screenshot](../assets/screenshots/macos/histogram.png)
 
-=== "Windows 11"
-    ![Histogram screenshot](../assets/screenshots/win11/histogram.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Histogram screenshot](../assets/screenshots/win95/histogram.png)
+![Histogram screenshot](../assets/screenshots/material/histogram.png)
 
-=== "Plasma 6"
-    ![Histogram screenshot](../assets/screenshots/plasma6/histogram.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Histogram screenshot](../assets/screenshots/gnome/histogram.png)
+![Histogram screenshot](../assets/screenshots/win11/histogram.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Histogram screenshot](../assets/screenshots/win95/histogram.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Histogram screenshot](../assets/screenshots/plasma6/histogram.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Histogram screenshot](../assets/screenshots/gnome/histogram.png)
+
+</TabItem>
+</Tabs>
 
 ## Data type
 

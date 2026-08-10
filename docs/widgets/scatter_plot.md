@@ -5,23 +5,38 @@
 A multi-series scatter plot with grid, legend, hover tooltips, and pan &
 zoom (see the [charts overview](charts_overview.md)). Inherits `Widget`.
 
-=== "macOS"
-    ![ScatterPlot screenshot](../assets/screenshots/macos/scatter_plot.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![ScatterPlot screenshot](../assets/screenshots/material/scatter_plot.png)
+![ScatterPlot screenshot](../assets/screenshots/macos/scatter_plot.png)
 
-=== "Windows 11"
-    ![ScatterPlot screenshot](../assets/screenshots/win11/scatter_plot.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![ScatterPlot screenshot](../assets/screenshots/win95/scatter_plot.png)
+![ScatterPlot screenshot](../assets/screenshots/material/scatter_plot.png)
 
-=== "Plasma 6"
-    ![ScatterPlot screenshot](../assets/screenshots/plasma6/scatter_plot.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![ScatterPlot screenshot](../assets/screenshots/gnome/scatter_plot.png)
+![ScatterPlot screenshot](../assets/screenshots/win11/scatter_plot.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![ScatterPlot screenshot](../assets/screenshots/win95/scatter_plot.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![ScatterPlot screenshot](../assets/screenshots/plasma6/scatter_plot.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![ScatterPlot screenshot](../assets/screenshots/gnome/scatter_plot.png)
+
+</TabItem>
+</Tabs>
 
 ## Data types
 

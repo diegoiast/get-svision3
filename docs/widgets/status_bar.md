@@ -6,23 +6,38 @@ A row of named, independently updatable text sections — e.g. for showing
 status messages, progress, or a spinner at the bottom of a window.
 Inherits `Widget`.
 
-=== "macOS"
-    ![StatusBar screenshot](../assets/screenshots/macos/status_bar.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![StatusBar screenshot](../assets/screenshots/material/status_bar.png)
+![StatusBar screenshot](../assets/screenshots/macos/status_bar.png)
 
-=== "Windows 11"
-    ![StatusBar screenshot](../assets/screenshots/win11/status_bar.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![StatusBar screenshot](../assets/screenshots/win95/status_bar.png)
+![StatusBar screenshot](../assets/screenshots/material/status_bar.png)
 
-=== "Plasma 6"
-    ![StatusBar screenshot](../assets/screenshots/plasma6/status_bar.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![StatusBar screenshot](../assets/screenshots/gnome/status_bar.png)
+![StatusBar screenshot](../assets/screenshots/win11/status_bar.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![StatusBar screenshot](../assets/screenshots/win95/status_bar.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![StatusBar screenshot](../assets/screenshots/plasma6/status_bar.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![StatusBar screenshot](../assets/screenshots/gnome/status_bar.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 

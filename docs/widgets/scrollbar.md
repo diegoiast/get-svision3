@@ -7,23 +7,38 @@ draggable thumb, and small/page step sizes. Used internally by
 [`ScrollableWidget`](scrollable_widget.md), but usable standalone as a
 generic ranged control. Inherits `Widget`.
 
-=== "macOS"
-    ![Scrollbar screenshot](../assets/screenshots/macos/scrollbar.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![Scrollbar screenshot](../assets/screenshots/material/scrollbar.png)
+![Scrollbar screenshot](../assets/screenshots/macos/scrollbar.png)
 
-=== "Windows 11"
-    ![Scrollbar screenshot](../assets/screenshots/win11/scrollbar.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![Scrollbar screenshot](../assets/screenshots/win95/scrollbar.png)
+![Scrollbar screenshot](../assets/screenshots/material/scrollbar.png)
 
-=== "Plasma 6"
-    ![Scrollbar screenshot](../assets/screenshots/plasma6/scrollbar.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![Scrollbar screenshot](../assets/screenshots/gnome/scrollbar.png)
+![Scrollbar screenshot](../assets/screenshots/win11/scrollbar.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![Scrollbar screenshot](../assets/screenshots/win95/scrollbar.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![Scrollbar screenshot](../assets/screenshots/plasma6/scrollbar.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![Scrollbar screenshot](../assets/screenshots/gnome/scrollbar.png)
+
+</TabItem>
+</Tabs>
 
 ## Construction
 

@@ -6,23 +6,38 @@ A single radio button that belongs to a `RadioGroup`, which enforces
 mutual exclusivity across all radio buttons registered with it. Inherits
 `Widget`.
 
-=== "macOS"
-    ![RadioButton screenshot](../assets/screenshots/macos/radio_button.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Material"
-    ![RadioButton screenshot](../assets/screenshots/material/radio_button.png)
+![RadioButton screenshot](../assets/screenshots/macos/radio_button.png)
 
-=== "Windows 11"
-    ![RadioButton screenshot](../assets/screenshots/win11/radio_button.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Windows 95"
-    ![RadioButton screenshot](../assets/screenshots/win95/radio_button.png)
+![RadioButton screenshot](../assets/screenshots/material/radio_button.png)
 
-=== "Plasma 6"
-    ![RadioButton screenshot](../assets/screenshots/plasma6/radio_button.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
 
-=== "GNOME"
-    ![RadioButton screenshot](../assets/screenshots/gnome/radio_button.png)
+![RadioButton screenshot](../assets/screenshots/win11/radio_button.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![RadioButton screenshot](../assets/screenshots/win95/radio_button.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![RadioButton screenshot](../assets/screenshots/plasma6/radio_button.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![RadioButton screenshot](../assets/screenshots/gnome/radio_button.png)
+
+</TabItem>
+</Tabs>
 
 ## RadioGroup
 

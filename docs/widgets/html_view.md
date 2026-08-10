@@ -7,23 +7,42 @@ This is the base class behind [`RichLabel`](rich_label.md); use `HtmlView`
 directly when you need a scrollable document rather than an inline rich
 text label. Inherits `Widget`.
 
-=== "macOS"
-    ![HtmlView screenshot](../assets/screenshots/macos/html_view.png)
+This widget does not support JavaScript and due to limitations of litehtml, should
+not contain large texts. It can be used for displaying documentation, and simple
+markup text. See more documentation in upstream project - https://github.com/litehtml/litehtml.
 
-=== "Material"
-    ![HtmlView screenshot](../assets/screenshots/material/html_view.png)
+<Tabs>
+<TabItem value="macos" label="macOS">
 
-=== "Windows 11"
-    ![HtmlView screenshot](../assets/screenshots/win11/html_view.png)
+![HtmlView screenshot](../assets/screenshots/macos/html_view.png)
 
-=== "Windows 95"
-    ![HtmlView screenshot](../assets/screenshots/win95/html_view.png)
+</TabItem>
+<TabItem value="material" label="Material">
 
-=== "Plasma 6"
-    ![HtmlView screenshot](../assets/screenshots/plasma6/html_view.png)
+![HtmlView screenshot](../assets/screenshots/material/html_view.png)
 
-=== "GNOME"
-    ![HtmlView screenshot](../assets/screenshots/gnome/html_view.png)
+</TabItem>
+<TabItem value="windows-11" label="Windows 11">
+
+![HtmlView screenshot](../assets/screenshots/win11/html_view.png)
+
+</TabItem>
+<TabItem value="windows-95" label="Windows 95">
+
+![HtmlView screenshot](../assets/screenshots/win95/html_view.png)
+
+</TabItem>
+<TabItem value="plasma-6" label="Plasma 6">
+
+![HtmlView screenshot](../assets/screenshots/plasma6/html_view.png)
+
+</TabItem>
+<TabItem value="gnome" label="GNOME">
+
+![HtmlView screenshot](../assets/screenshots/gnome/html_view.png)
+
+</TabItem>
+</Tabs>
 
 ## Example
 
