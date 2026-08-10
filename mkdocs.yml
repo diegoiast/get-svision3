@@ -1,0 +1,110 @@
+site_name: SVision3
+site_description: A C++20 GUI toolkit with Cairo-based rendering and native platform backends
+repo_url: https://github.com/diegoiast/svision3
+repo_name: svision3
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md
+  - Declarative API: declarative.md
+  - Widgets & Modules:
+      - Overview: widgets.md
+      - Layouts:
+          - Layouts: widgets/layout.md
+      - Widgets:
+          - Button: widgets/button.md
+          - ButtonGroup: widgets/button_group.md
+          - Label: widgets/label.md
+          - Checkbox: widgets/checkbox.md
+          - RadioButton: widgets/radio_button.md
+          - Combobox: widgets/combobox.md
+          - LineInput: widgets/line_input.md
+          - TextEdit: widgets/text_edit.md
+          - SpinBox: widgets/spin_box.md
+          - Slider: widgets/slider.md
+          - ProgressBar: widgets/progress_bar.md
+          - IconGrid: widgets/icon_grid.md
+          - HtmlView: widgets/html_view.md
+          - RichLabel: widgets/rich_label.md
+          - ImageWidget: widgets/image_widget.md
+          - ToastWidget: widgets/toast_widget.md
+      - Containers & Navigation:
+          - TabWidget: widgets/tab_widget.md
+          - Splitter: widgets/splitter.md
+          - ScrollArea: widgets/scroll_area.md
+          - ScrollableWidget: widgets/scrollable_widget.md
+          - Scrollbar: widgets/scrollbar.md
+          - DockArea: widgets/dock_area.md
+          - StatusBar: widgets/status_bar.md
+      - Data & Views:
+          - ItemModel: widgets/item_model.md
+          - ListView: widgets/list_view.md
+          - TreeView: widgets/tree_view.md
+          - TableView: widgets/table_view.md
+          - FileTreeModel: widgets/file_tree_model.md
+          - FileBrowserWidget: widgets/file_browser_widget.md
+      - Menus, Toolbars & Commands:
+          - Command: widgets/command.md
+          - Menu: widgets/menu.md
+          - MenuBar: widgets/menubar.md
+          - ContextMenu: widgets/context_menu.md
+          - Toolbar: widgets/toolbar.md
+      - Dialogs & System:
+          - FileDialog: widgets/file_dialog.md
+          - DirectoryDialog: widgets/directory_dialog.md
+          - MessageBox: widgets/message_box.md
+          - TrayIcon: widgets/tray_icon.md
+      - Charts:
+          - Overview: widgets/charts_overview.md
+          - LineChart: widgets/line_chart.md
+          - BarChart: widgets/bar_chart.md
+          - StackedBarChart: widgets/stacked_bar_chart.md
+          - AreaChart: widgets/area_chart.md
+          - PieChart: widgets/pie_chart.md
+          - ScatterPlot: widgets/scatter_plot.md
+          - Histogram: widgets/histogram.md
+          - CandlestickChart: widgets/candlestick_chart.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - toc:
+      permalink: true
