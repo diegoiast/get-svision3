@@ -32,7 +32,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/diegoiast/get-svision3/tree/main/',
+          editUrl: 'https://github.com/diegoiast/get-svision3/tree/gh-pages/',
           routeBasePath: 'docs',
         },
         blog: {
@@ -41,7 +41,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/diegoiast/get-svision3/tree/main/',
+          editUrl: 'https://github.com/diegoiast/get-svision3/tree/gh-pages/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',

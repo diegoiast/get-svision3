@@ -28,6 +28,9 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/docs/widgets">
             Widgets & Modules
           </Link>
+          <Link className="button button--secondary button--lg" to="/docs/demos">
+            See demos
+          </Link>
         </div>
         <img
           className={styles.heroImage}
@@ -39,43 +42,6 @@ function HomepageHeader() {
   );
 }
 
-function ApiDesign() {
-  return (
-    <section className={styles.apiDesign}>
-      <div className="container">
-        <Heading as="h2">API design</Heading>
-        <ul>
-          <li>
-            All memory is guarded by smart pointers — you create with{' '}
-            <code>std::make_shared</code> and get references to widgets with{' '}
-            <code>std::weak_ptr</code>.
-          </li>
-          <li>
-            Every widget has a <code>get_...()</code> that returns a value and a{' '}
-            <code>set_...()</code> that returns a reference, so calls chain.
-          </li>
-          <li>
-            Events are callback-based, with a <code>std::function</code> member you
-            can also override via the widget's <code>handle_...()</code> method.
-          </li>
-          <li>UTF-8 native, with a UTF-8 iterator class.</li>
-          <li>
-            Command-based API — build a <code>Command</code> once and attach it to a
-            toolbar, menu, or button; all three trigger the same callback.
-          </li>
-          <li>Widgets draw through a theme, so changing the theme changes every widget's display.</li>
-          <li>Painting goes through a thin platform-abstraction <code>Painter</code> class.</li>
-          <li>
-            Text rendering and image loading are similarly abstracted — opt out of
-            the defaults and plug in your own image loader, platform backend, or
-            text rasterizer.
-          </li>
-          <li>A fluent/declarative API is available on top of the base widget API — see the <Link to="/docs/declarative">Declarative API</Link> guide.</li>
-        </ul>
-      </div>
-    </section>
-  );
-}
 
 function PlatformMatrix() {
   return (
@@ -130,7 +96,6 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <ApiDesign />
         <PlatformMatrix />
       </main>
     </Layout>
